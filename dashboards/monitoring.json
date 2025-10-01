@@ -133,7 +133,7 @@
           "color": {
             "mode": "thresholds"
           },
-          "decimals": 1,
+          "decimals": 0,
           "mappings": [
             {
               "options": {
@@ -220,7 +220,7 @@
             "fixedColor": "dark-blue",
             "mode": "shades"
           },
-          "decimals": 1,
+          "decimals": 0,
           "mappings": [
             {
               "options": {
@@ -311,7 +311,7 @@
             "fixedColor": "dark-orange",
             "mode": "shades"
           },
-          "decimals": 1,
+          "decimals": 0,
           "mappings": [
             {
               "options": {
