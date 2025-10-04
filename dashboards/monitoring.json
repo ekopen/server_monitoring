@@ -26,7 +26,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${ds_prometheus}"
+        "uid": "aezytd97uzbpcf"
       },
       "description": "",
       "fieldConfig": {
@@ -125,7 +125,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${ds_prometheus}"
+        "uid": "aezytd97uzbpcf"
       },
       "description": "",
       "fieldConfig": {
@@ -211,7 +211,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${ds_prometheus}"
+        "uid": "aezytd97uzbpcf"
       },
       "description": "Overall Disk Space used",
       "fieldConfig": {
@@ -302,7 +302,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${ds_prometheus}"
+        "uid": "aezytd97uzbpcf"
       },
       "description": "",
       "fieldConfig": {
@@ -417,7 +417,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "${ds_prometheus}"
+          "uid": "aezytd97uzbpcf"
         },
         "definition": "label_values(node_uname_info,job)",
         "label": "Job",
@@ -465,7 +465,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "${ds_prometheus}"
+          "uid": "aezytd97uzbpcf"
         },
         "definition": "label_values(node_uname_info{job=\"$job\", nodename=\"$nodename\"},instance)",
         "hide": 2,
@@ -511,5 +511,5 @@
   "timezone": "",
   "title": "Server Monitoring",
   "uid": "server-monitoring",
-  "version": 9
+  "version": 1
 }
